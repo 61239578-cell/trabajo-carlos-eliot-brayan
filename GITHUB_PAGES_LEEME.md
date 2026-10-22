@@ -13,3 +13,6 @@
 - La tienda es estática. La bolsa se conserva en el navegador y los pedidos se envían por WhatsApp; no hay base de datos ni pasarela de pago integrada.
 - Revisa `assets/config.js` y confirma el número de WhatsApp antes de publicar. El archivo actual tiene un número que podría requerir verificación.
 - Se incluye `.nojekyll` para que GitHub Pages publique los archivos estáticos sin procesamiento de Jekyll.
+
+## Versión a prueba de fallos
+En esta versión el CSS y el JavaScript van dentro de cada página .html, así que la página mantiene su diseño aunque la carpeta `assets` no se suba. Las imágenes sí siguen estando en `assets/img/`: sube esa carpeta para que se vean las fotos.
